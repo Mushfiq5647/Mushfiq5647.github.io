@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Md Mushfiqur Azam</title>
+  <meta name="description" content="Md Mushfiqur Azam — Ph.D. candidate in Computer Science at UT San Antonio working on egocentric vision and 3D human pose estimation. Seeking research internships." />
+  <meta property="og:title" content="Md Mushfiqur Azam" />
+  <meta property="og:description" content="Ph.D. candidate, egocentric vision &amp; 3D human pose estimation. Seeking research internships." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'&gt;&lt;rect width='32' height='32' rx='7' fill='%231d6e74'/&gt;&lt;text x='16' y='22' font-family='Georgia,serif' font-size='16' fill='white' text-anchor='middle'&gt;MA&lt;/text&gt;&lt;/svg&gt;" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+
+  <!-- Prevent flash of wrong theme before CSS/JS load -->
+  <script>
+    (function () {
+      var saved = localStorage.getItem('theme');
+      if (saved === 'dark' || saved === 'light') {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+    })();
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="topbar" aria-hidden="true"></div>
+
+  <!-- ===================== TOP NAV ===================== -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#top">
+        <img class="nav__avatar" src="assets/avatar.svg" alt="" width="34" height="34" />
+        <span>Md Mushfiqur Azam</span>
+      </a>
+      <nav class="nav__links" aria-label="Section navigation">
+        <a href="#about" class="is-active">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#service">Service</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <span class="theme-toggle__icon" aria-hidden="true">&#9789;</span> Dark mode
+      </button>
+    </div>
+  </header>
+
+  <main class="page" id="top">
+
+    <!-- ===================== ABOUT / HERO ===================== -->
+    <section class="hero" id="about">
+
+      <!-- Bio column -->
+      <div class="hero-col hero-col--bio">
+        <h1 class="hero__name">Md Mushfiqur Azam</h1>
+        <p class="hero__role">
+          Ph.D. Student, Computer Science &middot;
+          <a href="https://www.utsa.edu/">The University of Texas at San Antonio</a>
+        </p>
+
+        <p class="availability"><span class="dot" aria-hidden="true"></span> Open to research internships</p>
+
+        <p class="hero__bio">
+          I work on <strong>egocentric vision</strong> and 3D human understanding — 3D human pose
+          estimation, human motion forecasting, and human&ndash;scene interaction from first-person and VR
+          cameras, advised by
+          <a href="https://scholar.google.com/citations?user=ZzaTdlYAAAAJ&amp;hl=en">Dr. Kevin Desai</a>.
+        </p>
+        <p class="hero__bio">
+          Before my Ph.D., I spent nearly 3 years as a software engineer building production-scale backend
+          systems serving 4M+ users. I'm actively seeking research internship positions in computer
+          vision, 3D human understanding, and immersive reality (AR/VR).
+        </p>
+      </div>
+
+      <!-- Recent Updates column -->
+      <div class="hero-col hero-col--updates">
+        <div class="panel-label"><span>Recent Updates</span><i></i></div>
+        <div class="panel">
+          <ul class="updates">
+            <!--
+              To add an update: copy one <li> and place it at the TOP (newest first).
+              Keep the date short, e.g. "Jun 2026".
+            -->
+            <li class="updates__row">
+              <span class="updates__date">Jun 2026</span>
+              <span class="updates__body">
+                🎉 <em>“EgoBalanceFormer”</em> accepted to <strong>IEEE TVCG</strong> — to be
+                presented at <strong>IEEE ISMAR 2026</strong> (Bari, Italy)!
+              </span>
+            </li>
+            <li class="updates__row">
+              <span class="updates__date">May 2026</span>
+              <span class="updates__body">
+                Served as a reviewer for <strong>IEEE ISMAR 2026</strong>.
+              </span>
+            </li>
+            <li class="updates__row">
+              <span class="updates__date">Feb 2026</span>
+              <span class="updates__body">
+                Reviewed 3 submissions for <strong>ICPR 2026</strong>.
+              </span>
+            </li>
+            <li class="updates__row">
+              <span class="updates__date">2025</span>
+              <span class="updates__body">
+                Co-authored paper on analyzing self-injurious behaviors in children with ASD,
+                accepted at <strong>WACV 2025 Workshops</strong>.
+              </span>
+            </li>
+            <li class="updates__row">
+              <span class="updates__date">Jun 2024</span>
+              <span class="updates__body">
+                Published <em>“A Survey on 3D Egocentric Human Pose Estimation”</em> at
+                <strong>CVPR 2024 Workshops</strong>.
+              </span>
+            </li>
+            <li class="updates__row">
+              <span class="updates__date">Jan 2024</span>
+              <span class="updates__body">
+                Joined Dr. Kevin Desai's lab as a Graduate Research Assistant.
+              </span>
+            </li>
+            <li class="updates__row">
+              <span class="updates__date">Aug 2023</span>
+              <span class="updates__body">
+                Started my Ph.D. in Computer Science at UT San Antonio.
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Photo + contact column -->
+      <div class="hero-col hero-col--contact">
+        <!-- Replace assets/avatar.svg with a real photo (e.g. assets/avatar.jpg) and update src. -->
+        <img class="hero__photo" src="assets/avatar.svg" alt="Portrait of Md Mushfiqur Azam" width="220" height="220" />
+
+        <div class="panel contact-card">
+          <a class="contact-row contact-row--cv" href="assets/cv.pdf">
+            <span class="contact-row__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </span>
+            Curriculum Vitae
+          </a>
+          <!-- TODO: replace # with your Google Scholar profile URL -->
+          <a class="contact-row" href="https://scholar.google.com/citations?user=0GvrLT2uvwwC&hl=en">
+            <span class="contact-row__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Zm0 9.09L3.82 9 12 4.91 20.18 9 12 12.09ZM5 13.18v3.64L12 21l7-4.18v-3.64l-7 3.82-7-3.82Z"/></svg>
+            </span>
+            Google Scholar
+          </a>
+          <a class="contact-row" href="https://github.com/Mushfiq5647">
+            <span class="contact-row__icon" aria-hidden="true">
+              <svg viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+            </span>
+            GitHub
+          </a>
+          <a class="contact-row" href="https://linkedin.com/in/mushfiqur-azam">
+            <span class="contact-row__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.49 6S0 4.88 0 3.5 1.11 1 2.49 1s2.49 1.12 2.49 2.5ZM.24 8.16H4.7V23H.24V8.16ZM8.34 8.16h4.28v2.03h.06c.6-1.1 2.06-2.26 4.24-2.26 4.53 0 5.37 2.9 5.37 6.67V23h-4.46v-6.55c0-1.56-.03-3.57-2.18-3.57-2.18 0-2.51 1.7-2.51 3.46V23H8.34V8.16Z"/></svg>
+            </span>
+            LinkedIn
+          </a>
+          <a class="contact-row" href="mailto:mdmushfiqur.azam@my.utsa.edu">
+            <span class="contact-row__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2Z"/><polyline points="22 6 12 13 2 6"/></svg>
+            </span>
+            Email
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ===================== PUBLICATIONS ===================== -->
+    <section class="section" id="publications" aria-labelledby="pubs-h">
+      <div class="panel-label"><span id="pubs-h">Publications</span><i></i></div>
+      <p class="section__note">Author names in <strong>bold</strong> indicate first authorship.</p>
+
+      <div class="panel">
+        <ol class="pubs">
+          <li class="pub">
+            <p class="pub__title">EgoBalanceFormer: Predicting Human Balance from Egocentric Pose and VR-Native Motion</p>
+            <p class="pub__authors"><strong>Md Mushfiqur Azam</strong>, Nipa Anjum, John Quarles, Kevin Desai</p>
+            <p class="pub__venue">IEEE Transactions on Visualization and Computer Graphics (TVCG) — to be presented at IEEE ISMAR 2026, Bari, Italy <span class="tag tag--ok">Accepted</span></p>
+            <!-- TODO: add a real link, e.g. <a href="...">Paper</a> -->
+            <p class="pub__links"><a href="#">Paper</a></p>
+          </li>
+
+          <li class="pub">
+            <p class="pub__title">Applying Computer Vision to Analyze Self-Injurious Behaviors in Children with Autism Spectrum Disorder</p>
+            <p class="pub__authors">Ayda Eghbalian, Md Mushfiqur Azam, Katie Holloway, Leslie Neely, Kevin Desai</p>
+            <p class="pub__venue">IEEE/CVF WACV Workshops, 2025 · pp. 11–20 <span class="tag tag--ok">Published</span></p>
+            <!-- TODO: add a real link, e.g. <a href="...">Paper</a> -->
+            <p class="pub__links"><a href="https://ieeexplore.ieee.org/abstract/document/10972485">Paper</a></p>
+          </li>
+
+          <li class="pub">
+            <p class="pub__title">A Survey on 3D Egocentric Human Pose Estimation</p>
+            <p class="pub__authors"><strong>Md Mushfiqur Azam</strong>, Kevin Desai</p>
+            <p class="pub__venue">IEEE/CVF CVPR Workshops, 2024 · pp. 1643–1654 <span class="tag tag--ok">Published</span></p>
+            <p class="pub__links"><a href="https://ieeexplore.ieee.org/abstract/document/10677906">Paper</a></p>
+          </li>
+
+          <li class="pub">
+            <p class="pub__title">An Unsupervised Approach for Road Surface Crack Detection</p>
+            <p class="pub__authors">Sadia Mubashshira, Md Mushfiqur Azam, Sk. Md. Masudul Ahsan</p>
+            <p class="pub__venue">IEEE Region 10 Symposium (TENSYMP), 2020 <span class="tag tag--ok">Published</span></p>
+            <p class="pub__links"><a href="https://ieeexplore.ieee.org/abstract/document/9231023">Paper</a></p>
+          </li>
+
+          <li class="pub">
+            <p class="pub__title">AG-EgoPose: Action-Guided Joint-Specific Decoding for Egocentric 3D Pose Estimation</p>
+            <p class="pub__authors"><strong>Md Mushfiqur Azam</strong>, John Quarles, Kevin Desai</p>
+            <p class="pub__venue"><span class="tag tag--pending">Under review</span></p>
+          </li>
+
+          <li class="pub">
+            <p class="pub__title">TSR-Ego: Temporally Guided Stereo Refinement Framework for Egocentric 3D Human Pose Estimation</p>
+            <p class="pub__authors"><strong>Md Mushfiqur Azam</strong>, John Quarles, Kevin Desai</p>
+            <p class="pub__venue"><span class="tag tag--pending">Under review</span></p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== ACADEMIC SERVICE ===================== -->
+    <section class="section" id="service" aria-labelledby="service-h">
+      <div class="panel-label"><span id="service-h">Academic Service</span><i></i></div>
+      <div class="panel">
+        <ul class="rows">
+          <li class="row">
+            <span class="row__main">
+              <span class="row__role">Reviewer — IEEE ISMAR 2026</span>
+              <span class="row__org">1 submission</span>
+            </span>
+            <span class="row__date">May 2026</span>
+          </li>
+          <li class="row">
+            <span class="row__main">
+              <span class="row__role">Reviewer — ICPR 2026</span>
+              <span class="row__org">3 submissions</span>
+            </span>
+            <span class="row__date">Feb 2026</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section class="section" id="experience" aria-labelledby="exp-h">
+      <div class="panel-label"><span id="exp-h">Experience</span><i></i></div>
+      <div class="panel">
+        <ul class="rows">
+          <li class="row">
+            <span class="row__main">
+              <span class="row__role">Graduate Research Assistant</span>
+              <span class="row__org">The University of Texas at San Antonio</span>
+            </span>
+            <span class="row__date">2024 – Present</span>
+          </li>
+          <li class="row">
+            <span class="row__main">
+              <span class="row__role">Software Engineer</span>
+              <span class="row__org">Kona Software Lab Limited, Dhaka</span>
+            </span>
+            <span class="row__date">2021 – 2023</span>
+          </li>
+          <li class="row">
+            <span class="row__main">
+              <span class="row__role">Junior Software Engineer</span>
+              <span class="row__org">Nascenia Limited, Dhaka</span>
+            </span>
+            <span class="row__date">2020 – 2021</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section class="section" id="education" aria-labelledby="edu-h">
+      <div class="panel-label"><span id="edu-h">Education</span><i></i></div>
+      <div class="panel">
+        <ul class="rows">
+          <li class="row">
+            <span class="row__main">
+              <span class="row__role">Ph.D., Computer Science &amp; Engineering</span>
+              <span class="row__org">The University of Texas at San Antonio</span>
+            </span>
+            <span class="row__date">2023 – Present</span>
+          </li>
+          <li class="row">
+            <span class="row__main">
+              <span class="row__role">B.Sc., Computer Science &amp; Engineering</span>
+              <span class="row__org">Khulna University of Engineering &amp; Technology</span>
+            </span>
+            <span class="row__date">2016 – 2020</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <p>© <span id="yr">2026</span> Md Mushfiqur Azam <span class="sep">·</span>
+         <a href="mailto:mdmushfiqur.azam@my.utsa.edu">mdmushfiqur.azam@my.utsa.edu</a></p>
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById('yr').textContent = new Date().getFullYear();
+
+    (function () {
+      var root = document.documentElement;
+      var btn = document.getElementById('theme-toggle');
+      var mql = window.matchMedia('(prefers-color-scheme: dark)');
+
+      function currentTheme() {
+        var attr = root.getAttribute('data-theme');
+        if (attr) return attr;
+        return mql.matches ? 'dark' : 'light';
+      }
+
+      function apply(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+      }
+
+      btn.addEventListener('click', function () {
+        apply(currentTheme() === 'dark' ? 'light' : 'dark');
+      });
+    })();
+
+    // Highlight the current section's nav link while scrolling.
+    (function () {
+      var links = Array.prototype.slice.call(document.querySelectorAll('.nav__links a'));
+      var sections = links
+        .map(function (a) { return document.querySelector(a.getAttribute('href')); })
+        .filter(Boolean);
+
+      if (!('IntersectionObserver' in window) || !sections.length) return;
+
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          var id = '#' + entry.target.id;
+          links.forEach(function (a) {
+            a.classList.toggle('is-active', a.getAttribute('href') === id);
+          });
+        });
+      }, { rootMargin: '-45% 0px -50% 0px' });
+
+      sections.forEach(function (s) { observer.observe(s); });
+    })();
+  </script>
+</body>
+</html>
